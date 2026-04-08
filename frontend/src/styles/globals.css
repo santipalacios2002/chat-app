@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+body {
+  background-color: #f6f1e8;
+}
+
+@layer components {
+  .glass-panel {
+    @apply rounded-[2rem] border border-ink/10 bg-white/70 shadow-glow backdrop-blur;
+  }
+
+  .primary-button {
+    @apply inline-flex items-center justify-center rounded-full bg-ink px-5 py-3 text-sm font-semibold text-white transition hover:bg-ink/90;
+  }
+
+  .secondary-button {
+    @apply inline-flex items-center justify-center rounded-full border border-ink/12 bg-white/70 px-5 py-3 text-sm font-semibold text-ink transition hover:bg-white;
+  }
+}
+

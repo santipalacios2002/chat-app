@@ -1,0 +1,2 @@
+Seed this file with product-specific context blocks, style guidance, or domain rules.
+
